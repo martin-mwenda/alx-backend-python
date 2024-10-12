@@ -3,10 +3,10 @@
 where each element is paired with its length. The length is
 calculated using the built-in len() function."""
 
-from typing import List, Tuple, Any
+from typing import Iterable, Sequence, List, Tuple
 
 
-def element_length(lst: List[Any]) -> List[Tuple[Any, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Returns a list of tuples containing elements and their lengths.
 
