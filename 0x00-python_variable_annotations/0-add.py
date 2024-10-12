@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+""" simple function module for adding two floats """
 
 
 def add(a: float, b: float) -> float:
