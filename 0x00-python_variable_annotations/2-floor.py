@@ -5,7 +5,7 @@ integer less than or equal to the given number."""
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     Returns the floor of the given float.
 
