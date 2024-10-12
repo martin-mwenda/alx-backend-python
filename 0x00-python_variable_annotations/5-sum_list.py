@@ -4,6 +4,8 @@
 calculates their sum. It is useful for aggregating numeric
 data in float format."""
 
+from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """
